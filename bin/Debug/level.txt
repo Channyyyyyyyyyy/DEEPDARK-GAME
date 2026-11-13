@@ -1,0 +1,26 @@
+# DEEP DARK level file. Edit and press R in the game - no rebuild needed.
+size 12 9
+seed 7
+relics 3
+batteries 5
+battery 100
+drain 0.55
+budget 2
+ambient 0.02
+# attenuation: constant linear quadratic
+torch 0.3 0.09 0.02
+pointatt 0.3 0.2 0.1
+# moon: direction the light travels, then colour (very dim)
+moon -0.35 -1.0 -0.25 0.05 0.07 0.14
+# material name r g b specularIntensity shininess
+material brick 0.50 0.26 0.20 0.10 8
+material stone 0.28 0.27 0.25 0.50 40
+material gold 1.00 0.78 0.25 1.20 96
+material battery 0.15 0.85 0.25 0.50 16
+material steel 0.65 0.68 0.72 1.50 160
+material brass 0.75 0.55 0.25 0.90 48
+# light cellX cellY r g b   (first `budget` lights cast shadows; max 4 lights)
+light 2 2 1.0 0.45 0.25
+light 8 4 0.3 0.5 1.0
+light 4 7 0.4 1.0 0.4
+light 10 1 0.9 0.3 0.6
