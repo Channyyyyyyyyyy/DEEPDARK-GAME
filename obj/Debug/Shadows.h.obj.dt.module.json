@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\chrys\\Downloads\\DeepDark_VS\\obj\\Debug\\Shadows.obj",
+            "outputs": [
+                "C:\\Users\\chrys\\Downloads\\DeepDark_VS\\obj\\Debug\\Shadows.h.obj.dt.module.json",
+                "C:\\Users\\chrys\\Downloads\\DeepDark_VS\\obj\\Debug\\Shadows.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

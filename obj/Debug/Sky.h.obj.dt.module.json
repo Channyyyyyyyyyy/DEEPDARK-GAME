@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\chrys\\Downloads\\DeepDark_VS\\obj\\Debug\\Sky.obj",
+            "outputs": [
+                "C:\\Users\\chrys\\Downloads\\DeepDark_VS\\obj\\Debug\\Sky.h.obj.dt.module.json",
+                "C:\\Users\\chrys\\Downloads\\DeepDark_VS\\obj\\Debug\\Sky.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
