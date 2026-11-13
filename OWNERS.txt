@@ -1,0 +1,24 @@
+FILE OWNERSHIP (T4 starter - edit at Gate 1)
+FILE                         OWNER   NOTES
+src/main.cpp                 R1      frame loop only
+src/Common.h                 R1      constants; nobody else edits it without telling R1
+src/Window.cpp/.h            R1      GL 4.6 hints; R4 sends input changes, R1 commits
+src/Level.cpp/.h             R1      level.txt parser, maze, items, light list (D1/D2)
+CMakeLists.txt, vcpkg.json   R1
+level.txt                    R1      R3 edits materials, R4 edits difficulty - tell R1
+src/Shader.cpp/.h            R2
+src/Shadows.cpp/.h           R2      torch, point-light cube, moon maps
+src/Renderer.cpp/.h          R2
+Shaders/*                    R2      main.frag, main.vert, omni.*, sky.*, hud.*, depth.frag
+src/Mesh.cpp/.h              R3
+src/Sky.cpp/.h               R3      night-sky cube map
+src/Camera.cpp/.h            R4
+src/Game.cpp/.h              R4      state machine, win/lose, HUD contents
+src/Hud.cpp/.h               R4      ortho overlay + bitmap font
+bench_results.csv (generated) R5     frame-time evidence
+
+TEXTURE UNIT LEDGER (T2) for the main program
+unit 0  torch shadow (sampler2DShadow)     unit 3  point cube map 2 (samplerCubeShadow)
+unit 1  point cube map 0                   unit 4  point cube map 3
+unit 2  point cube map 1                   unit 5  moon shadow (sampler2DShadow)
+unit 6  sky cube map (sky program only, never read by the main program)

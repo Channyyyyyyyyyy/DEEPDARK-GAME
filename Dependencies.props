@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EDIT THESE THREE LINES to point at the folders you downloaded. Nothing else needs changing. -->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="UserMacros">
+    <!-- GLEW "Binaries" download. Must contain include\ and lib\Release\x64\glew32s.lib -->
+    <GLEW_DIR>C:\glew-2.3.1</GLEW_DIR>
+    <!-- GLFW "64-bit Windows binaries" download. Must contain include\ and lib-vc2022\glfw3.lib -->
+    <GLFW_DIR>C:\glfw-3.4.bin.WIN64</GLFW_DIR>
+    <!-- GLM download. This folder must contain a folder named glm (so that glm\glm.hpp exists) -->
+    <GLM_DIR>C:\Users\chrys\.nuget\packages\glm\1.0.3\build\native\include</GLM_DIR>
+  </PropertyGroup>
+</Project>
